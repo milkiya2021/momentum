@@ -1,0 +1,135 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+  position: relative;
+  font-family: "Noto Sans", sans-serif;
+  /* font-family: "Prompt", sans-serif;*/
+}
+
+.clicked {
+  color: tomato;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#clock {
+  font-size: 120px;
+  text-shadow: 5px 6px 1px #1615158f;
+  /* font-family: "Prompt", sans-serif;*/
+}
+
+#greeting {
+  text-shadow: 3px 3px 1px #1615158f;
+}
+
+#todoBox {
+  position: absolute;
+  top: 70%;
+  text-shadow: 1px 1px 1px #1615158f;
+}
+
+#quoteBox {
+  position: absolute;
+  bottom: 10px;
+  text-shadow: 1px 1px 1px #1615158f;
+  font-size: 15px;
+}
+
+#weatherBox {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 1px #1615158f;
+}
+
+button {
+  color: white;
+}
+
+button,
+.inputBox,
+.loginBox {
+  background-color: transparent;
+  border: none;
+}
+
+.loginBox {
+  width: 280px;
+  height: 40px;
+  font-size: 30px;
+  border-bottom: 1px solid #0000007e;
+  text-align: center;
+  color: white;
+}
+
+.inputBox {
+  color: white;
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #0000007c;
+}
+
+.inputBox::placeholder,
+.loginBox::placeholder {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-shadow: 1px 1px 1px #1615158f;
+}
+
+li {
+  list-style: none;
+  font-size: 15px;
+  color: yellow;
+  width: 300px;
+  height: 22px;
+  margin: 5px;
+  background-color: rgba(0, 0, 0, 0.308);
+  border-radius: 20px;
+}
+
+#maker {
+  position: absolute;
+  font-size: 13px;
+  bottom: 10px;
+  right: 10px;
+  text-shadow: 1px 1px 1px #1615158f;
+  color: rgba(255, 255, 255, 0.452);
+}
+
+#appName {
+  position: absolute;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.452);
+  top: 10px;
+  left: 10px;
+  text-shadow: 1px 1px 1px #1615153f;
+}
