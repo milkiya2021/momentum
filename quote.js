@@ -22,26 +22,26 @@ const quotes = [
   {
     quote:
       "진정한 가치는 결과에서 나오는 것이 아니라, 그것을 찾아가는 과정에서 나오는 것이다",
-    author: "매트 머커너히",
+    author: "-매트 머커너히-",
   },
   {
     quote:
       "The only thing necessary for the triumph of evil is for good men to do nothing.",
-    author: "Edmund Burke",
+    author: "-Edmund Burke-",
   },
   {
     quote:
       "The greatest glory in living lies not in never falling, but in rising every time we fall.",
-    author: "Nelson Mandela",
+    author: "-Nelson Mandela-",
   },
   {
     quote:
       "Do not go where the path may lead, go instead where there is no path and leave a trail.",
-    author: "Ralph Waldo Emerson",
+    author: "-Ralph Waldo Emerson-",
   },
   {
     quote: "The journey of a thousand miles begins with one step.",
-    author: "Lao Tzu",
+    author: "-Lao Tzu-",
   },
 ];
 
